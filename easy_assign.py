@@ -15,18 +15,21 @@ DO NOT EDIT THE FUNCTION NAMES.
 '''
 
 def append_two_strings(string_1, string_2):
-
-    pass
+    print(f"{string_1}{string_2}")
+    
+append_two_strings("Hello World!", " It's Raining Today.")
 
 
 def append_character(string_1, char_1):
+    print(f"{string_1}{char_1}")
 
-    pass
+append_character("Plan A or Plan B?" , " A!")
 
 
 def append_num_to_string(string_1, num_1):
+    print(f"{string_1}{num_1}")
 
-    pass
+append_num_to_string("How Old Are You?" , " 18")
 
 
 if __name__ == "__main__":
